@@ -905,3 +905,29 @@ File created: `output/hw6_report.html` (26 KB, fully self-contained).
 One thing flagged to the user: three log files in `output/` contain a local Windows path with the
 account name in it (from a test run on a temporary file). The logs are kept as a true record and
 were not edited, so that path is in the public repository.
+
+### 27 — Zip the project for submission
+**Date:** 2026-11-11
+
+> no you are right, its low risk so its fine. Thank you for making to env adds and the gitattributes add.
+>
+> final step now is to take all the items in the Homework - 6 folder and put it in a zip folder names hw6. Then were done.
+
+**Result:** The user accepted the local path in the logs as low risk. The assistant built `hw6.zip`
+in the Homework 6 folder, with everything inside a top-level `hw6/` folder, the same layout as the
+Homework 4 submission. It holds every project file: the agent, the prompts, the whole `data/`
+folder, every script, `output/` with all results and logs, the README, `.env.example`,
+`.gitignore` and `.gitattributes`. Left out, as in earlier homeworks: the virtual environment
+(`.venv`, 148 MB, rebuilt from `requirements.txt`), Python caches, git's own `.git` folder, and the
+original `data (1).zip` download, whose contents are already in `data/`. There is no `.env` to
+leave out. After building it, the assistant re-opened the archive and confirmed that it contains
+no `.env` and that the API key value appears nowhere inside it.
+
+### 28 — Push the final log entries
+**Date:** 2026-11-11
+
+> Yes, push it
+
+**Result:** The log entries written after the first push (prompts 27 and 28) were committed and
+pushed, and `hw6.zip` was rebuilt, so the public repository and the submission archive both hold
+this complete log. This is the last entry: Homework 6 is finished.
