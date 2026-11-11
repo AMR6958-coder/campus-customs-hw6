@@ -1,0 +1,4 @@
+# Keep the course data exactly as provided, byte for byte. Without this, git may change the
+# line endings of the handbook, the HTML pages and the emails on checkout.
+data/** -text
+tests/second_look_docs/** -text

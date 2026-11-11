@@ -1,0 +1,78 @@
+[
+  {
+    "time": "2026-11-10T23:24:17-05:00",
+    "run_id": "de429861eb17",
+    "document": "tests/second_look_docs/t01_clipped_lead_time.html",
+    "model": "gpt-6-luna",
+    "requests": 4,
+    "input_tokens": 48890,
+    "cached_input_tokens": 42594,
+    "cache_write_tokens": 161,
+    "uncached_input_tokens": 6135,
+    "output_tokens": 195,
+    "cost_usd": 0.00115707,
+    "cost_breakdown_usd": {
+      "uncached_input": 0.0006135,
+      "cached_input": 0.00042594,
+      "cache_write": 2.013e-05,
+      "output": 9.75e-05
+    }
+  },
+  {
+    "time": "2026-11-10T23:24:26-05:00",
+    "run_id": "e2483991f256",
+    "document": "tests/second_look_docs/t02_price_drawn_by_stylesheet.html",
+    "model": "gpt-6-luna",
+    "requests": 4,
+    "input_tokens": 48889,
+    "cached_input_tokens": 42595,
+    "cache_write_tokens": 159,
+    "uncached_input_tokens": 6135,
+    "output_tokens": 194,
+    "cost_usd": 0.00115632,
+    "cost_breakdown_usd": {
+      "uncached_input": 0.0006135,
+      "cached_input": 0.00042595,
+      "cache_write": 1.987e-05,
+      "output": 9.7e-05
+    }
+  },
+  {
+    "time": "2026-11-10T23:24:35-05:00",
+    "run_id": "a41a3355d04f",
+    "document": "tests/second_look_docs/t03_covered_lead_time.pdf",
+    "model": "gpt-6-luna",
+    "requests": 4,
+    "input_tokens": 48907,
+    "cached_input_tokens": 42594,
+    "cache_write_tokens": 156,
+    "uncached_input_tokens": 6157,
+    "output_tokens": 199,
+    "cost_usd": 0.00116064,
+    "cost_breakdown_usd": {
+      "uncached_input": 0.0006157,
+      "cached_input": 0.00042594,
+      "cache_write": 1.95e-05,
+      "output": 9.95e-05
+    }
+  },
+  {
+    "time": "2026-11-10T23:25:04-05:00",
+    "run_id": "bed797ece001",
+    "document": "tests/second_look_docs/t04_clean_control.pdf",
+    "model": "gpt-6-luna",
+    "requests": 3,
+    "input_tokens": 35494,
+    "cached_input_tokens": 32863,
+    "cache_write_tokens": 147,
+    "uncached_input_tokens": 2484,
+    "output_tokens": 170,
+    "cost_usd": 0.00068041,
+    "cost_breakdown_usd": {
+      "uncached_input": 0.0002484,
+      "cached_input": 0.00032863,
+      "cache_write": 1.837e-05,
+      "output": 8.5e-05
+    }
+  }
+]

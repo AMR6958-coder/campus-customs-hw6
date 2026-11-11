@@ -1,0 +1,65 @@
+{
+  "handbook_file": "data/shop_handbook.md",
+  "characters": 28903,
+  "bytes": 28903,
+  "words": 6127,
+  "offline": {
+    "encoding": "o200k_base",
+    "tokens": 10058
+  },
+  "prices_per_1m": {
+    "input_per_1m": 0.1,
+    "cached_input_per_1m": 0.01,
+    "cache_write_per_1m": 0.125,
+    "output_per_1m": 0.5
+  },
+  "measured": {
+    "without_handbook": {
+      "model_reported": "gpt-6-luna-2026-09-22",
+      "input_tokens": 18,
+      "cached_input_tokens": 0,
+      "cache_write_tokens": 0,
+      "output_tokens": 4
+    },
+    "with_handbook": {
+      "model_reported": "gpt-6-luna-2026-09-22",
+      "input_tokens": 10075,
+      "cached_input_tokens": 0,
+      "cache_write_tokens": 10072,
+      "output_tokens": 4
+    },
+    "repeat_calls": [
+      {
+        "model_reported": "gpt-6-luna-2026-09-22",
+        "input_tokens": 10083,
+        "cached_input_tokens": 10061,
+        "cache_write_tokens": 19,
+        "output_tokens": 4
+      },
+      {
+        "model_reported": "gpt-6-luna-2026-09-22",
+        "input_tokens": 10083,
+        "cached_input_tokens": 10061,
+        "cache_write_tokens": 19,
+        "output_tokens": 4
+      },
+      {
+        "model_reported": "gpt-6-luna-2026-09-22",
+        "input_tokens": 10083,
+        "cached_input_tokens": 10061,
+        "cache_write_tokens": 19,
+        "output_tokens": 4
+      }
+    ],
+    "placeholder_tokens": 1,
+    "handbook_tokens": 10058
+  },
+  "tokens_used_for_cost": 10058,
+  "cost": {
+    "one_call_no_cache": 0.0010058,
+    "thousand_calls_no_cache": 1.0058,
+    "one_call_cache_write": 0.00125725,
+    "one_call_cache_read": 0.00010057999999999999,
+    "thousand_calls_with_cache": 0.10173666999999999
+  }
+}

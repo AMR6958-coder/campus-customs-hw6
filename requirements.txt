@@ -1,0 +1,13 @@
+# Homework 6: Campus Customs vendor desk agent. Python 3.14.
+#   py -3.14 -m venv .venv
+#   .venv\Scripts\python -m pip install -r requirements.txt
+pydantic-ai-slim[openai]==2.67.0   # the agent framework, with its OpenAI-compatible model
+openai==3.49.0                     # OpenAI-compatible client, pointed at the Portkey gateway
+beautifulsoup4==4.15.0             # reads HTML documents and HTML email bodies
+pdfplumber==0.11.10                # reads PDFs, with each character's size, colour and position
+pypdfium2==5.15.2                  # draws a PDF page as a picture (second look)
+pillow==13.0.0                     # saves that picture as a PNG
+# The second look also needs Chrome or Edge installed to take a picture of an HTML page.
+# Without one, HTML documents skip the picture check with a warning; PDFs are unaffected.
+tiktoken==0.14.0                   # offline token counting (count_handbook_tokens.py)
+truststore==0.10.5                 # verify HTTPS with the Windows certificate store

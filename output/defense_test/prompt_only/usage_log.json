@@ -1,0 +1,806 @@
+[
+  {
+    "time": "2026-11-11T00:19:11-05:00",
+    "run_id": "e5b08dfb5300",
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23591,
+    "cached_input_tokens": 11578,
+    "cache_write_tokens": 11761,
+    "uncached_input_tokens": 252,
+    "output_tokens": 134,
+    "cost_usd": 0.00167811,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00011578,
+      "cache_write": 0.00147013,
+      "output": 6.7e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1j00Pk474WyWjYNgkH2KYXk1Kf",
+        "input_tokens": 11704,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 11578,
+        "uncached_input_tokens": 126,
+        "output_tokens": 26,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00147285,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.0,
+          "cache_write": 0.00144725,
+          "output": 1.3e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1l14kMrHsGVAzJMkpYgwnRjunm",
+        "input_tokens": 11887,
+        "cached_input_tokens": 11578,
+        "cache_write_tokens": 183,
+        "uncached_input_tokens": 126,
+        "output_tokens": 108,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00020525,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011578,
+          "cache_write": 2.288e-05,
+          "output": 5.4e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:14-05:00",
+    "run_id": "edb4192f1e12",
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23603,
+    "cached_input_tokens": 23135,
+    "cache_write_tokens": 216,
+    "uncached_input_tokens": 252,
+    "output_tokens": 129,
+    "cost_usd": 0.00034805,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023135,
+      "cache_write": 2.7e-05,
+      "output": 6.45e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1niAZP6KZoomMHduo6dWhGoave",
+        "input_tokens": 11705,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 23,
+        "uncached_input_tokens": 126,
+        "output_tokens": 27,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014454,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 2.88e-06,
+          "output": 1.35e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1o3pcp9p0xiUORW9aFZ21HVxxL",
+        "input_tokens": 11898,
+        "cached_input_tokens": 11579,
+        "cache_write_tokens": 193,
+        "uncached_input_tokens": 126,
+        "output_tokens": 102,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00020352,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011579,
+          "cache_write": 2.413e-05,
+          "output": 5.1e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:18-05:00",
+    "run_id": "f2901c9325d5",
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23595,
+    "cached_input_tokens": 23135,
+    "cache_write_tokens": 208,
+    "uncached_input_tokens": 252,
+    "output_tokens": 110,
+    "cost_usd": 0.00033755,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023135,
+      "cache_write": 2.6e-05,
+      "output": 5.5e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1qBmwwOVxumdoh8Ms6atijRyvy",
+        "input_tokens": 11705,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 23,
+        "uncached_input_tokens": 126,
+        "output_tokens": 27,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014454,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 2.88e-06,
+          "output": 1.35e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1svUZZxcIxNWvSx2Wga5hWBUVO",
+        "input_tokens": 11890,
+        "cached_input_tokens": 11579,
+        "cache_write_tokens": 185,
+        "uncached_input_tokens": 126,
+        "output_tokens": 83,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00019302,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011579,
+          "cache_write": 2.312e-05,
+          "output": 4.15e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:22-05:00",
+    "run_id": "b3cd9e78053f",
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23634,
+    "cached_input_tokens": 23137,
+    "cache_write_tokens": 245,
+    "uncached_input_tokens": 252,
+    "output_tokens": 136,
+    "cost_usd": 0.0003552,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023137,
+      "cache_write": 3.062e-05,
+      "output": 6.8e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1ul9aPztngiwkprDuaw3X2AosT",
+        "input_tokens": 11707,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 25,
+        "uncached_input_tokens": 126,
+        "output_tokens": 29,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014579,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 3.13e-06,
+          "output": 1.45e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1wGdEyw5NKCfnYf3xuM1nJIa2o",
+        "input_tokens": 11927,
+        "cached_input_tokens": 11581,
+        "cache_write_tokens": 220,
+        "uncached_input_tokens": 126,
+        "output_tokens": 107,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00020941,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011581,
+          "cache_write": 2.75e-05,
+          "output": 5.35e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:26-05:00",
+    "run_id": "4edd6b20a37d",
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23560,
+    "cached_input_tokens": 23135,
+    "cache_write_tokens": 173,
+    "uncached_input_tokens": 252,
+    "output_tokens": 131,
+    "cost_usd": 0.00034367,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023135,
+      "cache_write": 2.163e-05,
+      "output": 6.55e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv1yj0RvnN63ytjmaLKHJNqbQ8Wg",
+        "input_tokens": 11705,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 23,
+        "uncached_input_tokens": 126,
+        "output_tokens": 27,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014454,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 2.88e-06,
+          "output": 1.35e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv20mbVlm3eTUZUjlkYsLV9xmmXk",
+        "input_tokens": 11855,
+        "cached_input_tokens": 11579,
+        "cache_write_tokens": 150,
+        "uncached_input_tokens": 126,
+        "output_tokens": 104,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00019914,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011579,
+          "cache_write": 1.875e-05,
+          "output": 5.2e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:30-05:00",
+    "run_id": "a6c65efda94b",
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23604,
+    "cached_input_tokens": 23135,
+    "cache_write_tokens": 217,
+    "uncached_input_tokens": 252,
+    "output_tokens": 123,
+    "cost_usd": 0.00034517,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023135,
+      "cache_write": 2.712e-05,
+      "output": 6.15e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv22vQNTiB9pEqUlJvipQlXd5iuO",
+        "input_tokens": 11705,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 23,
+        "uncached_input_tokens": 126,
+        "output_tokens": 27,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014454,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 2.88e-06,
+          "output": 1.35e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv24N5jL0dFNFQJS9tcMgIO7jo3B",
+        "input_tokens": 11899,
+        "cached_input_tokens": 11579,
+        "cache_write_tokens": 194,
+        "uncached_input_tokens": 126,
+        "output_tokens": 96,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00020064,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011579,
+          "cache_write": 2.425e-05,
+          "output": 4.8e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:34-05:00",
+    "run_id": "6aba33089332",
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23580,
+    "cached_input_tokens": 23135,
+    "cache_write_tokens": 193,
+    "uncached_input_tokens": 252,
+    "output_tokens": 120,
+    "cost_usd": 0.00034067,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023135,
+      "cache_write": 2.413e-05,
+      "output": 6e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv266mX56MnrZzjBJwDwiFToA9Wg",
+        "input_tokens": 11705,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 23,
+        "uncached_input_tokens": 126,
+        "output_tokens": 27,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014454,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 2.88e-06,
+          "output": 1.35e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv29LAtUkwQFf51SOOCzJzZ94qXv",
+        "input_tokens": 11875,
+        "cached_input_tokens": 11579,
+        "cache_write_tokens": 170,
+        "uncached_input_tokens": 126,
+        "output_tokens": 93,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00019614,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011579,
+          "cache_write": 2.125e-05,
+          "output": 4.65e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:39-05:00",
+    "run_id": "b9dc60cf1f0d",
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23596,
+    "cached_input_tokens": 23136,
+    "cache_write_tokens": 208,
+    "uncached_input_tokens": 252,
+    "output_tokens": 138,
+    "cost_usd": 0.00035156,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023136,
+      "cache_write": 2.6e-05,
+      "output": 6.9e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2BDFwe7cpqTtU8QTag9JENjtgG",
+        "input_tokens": 11706,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 24,
+        "uncached_input_tokens": 126,
+        "output_tokens": 28,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014516,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 3e-06,
+          "output": 1.4e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2DNcfzh3RLbf37DZFOzKMTt56g",
+        "input_tokens": 11890,
+        "cached_input_tokens": 11580,
+        "cache_write_tokens": 184,
+        "uncached_input_tokens": 126,
+        "output_tokens": 110,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.0002064,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.0001158,
+          "cache_write": 2.3e-05,
+          "output": 5.5e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:43-05:00",
+    "run_id": "ffb13fa705c3",
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23732,
+    "cached_input_tokens": 23136,
+    "cache_write_tokens": 344,
+    "uncached_input_tokens": 252,
+    "output_tokens": 120,
+    "cost_usd": 0.00035956,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023136,
+      "cache_write": 4.3e-05,
+      "output": 6e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2GVgJgWCerFMIMZBqUqMqVbGHE",
+        "input_tokens": 11706,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 24,
+        "uncached_input_tokens": 126,
+        "output_tokens": 28,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014516,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 3e-06,
+          "output": 1.4e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2H1nhds4CBzmmAVHtcmc0XOsDm",
+        "input_tokens": 12026,
+        "cached_input_tokens": 11580,
+        "cache_write_tokens": 320,
+        "uncached_input_tokens": 126,
+        "output_tokens": 92,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.0002144,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.0001158,
+          "cache_write": 4e-05,
+          "output": 4.6e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:47-05:00",
+    "run_id": "18723eb7b37a",
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23615,
+    "cached_input_tokens": 23136,
+    "cache_write_tokens": 227,
+    "uncached_input_tokens": 252,
+    "output_tokens": 144,
+    "cost_usd": 0.00035694,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023136,
+      "cache_write": 2.837e-05,
+      "output": 7.2e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2JAzHav5ODiQi8ebkyTJNgXU3y",
+        "input_tokens": 11706,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 24,
+        "uncached_input_tokens": 126,
+        "output_tokens": 28,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014516,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 3e-06,
+          "output": 1.4e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2LavXPD0lxfEdZDeXsO53l4ysF",
+        "input_tokens": 11909,
+        "cached_input_tokens": 11580,
+        "cache_write_tokens": 203,
+        "uncached_input_tokens": 126,
+        "output_tokens": 116,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00021177,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.0001158,
+          "cache_write": 2.538e-05,
+          "output": 5.8e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:51-05:00",
+    "run_id": "ba8897c7eda5",
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23560,
+    "cached_input_tokens": 23135,
+    "cache_write_tokens": 173,
+    "uncached_input_tokens": 252,
+    "output_tokens": 107,
+    "cost_usd": 0.00033167,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023135,
+      "cache_write": 2.163e-05,
+      "output": 5.35e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2NflXXiQfHJx5i9zDlTSmW7xka",
+        "input_tokens": 11705,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 23,
+        "uncached_input_tokens": 126,
+        "output_tokens": 27,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014454,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 2.88e-06,
+          "output": 1.35e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2PwOX1Z1l4maQ8s98LygLuMTyE",
+        "input_tokens": 11855,
+        "cached_input_tokens": 11579,
+        "cache_write_tokens": 150,
+        "uncached_input_tokens": 126,
+        "output_tokens": 80,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00018714,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011579,
+          "cache_write": 1.875e-05,
+          "output": 4e-05
+        }
+      }
+    ]
+  },
+  {
+    "time": "2026-11-11T00:19:55-05:00",
+    "run_id": "9186447ef749",
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "model": "gpt-6-luna",
+    "requests": 2,
+    "input_tokens": 23576,
+    "cached_input_tokens": 23134,
+    "cache_write_tokens": 190,
+    "uncached_input_tokens": 252,
+    "output_tokens": 129,
+    "cost_usd": 0.00034479,
+    "cost_breakdown_usd": {
+      "uncached_input": 2.52e-05,
+      "cached_input": 0.00023134,
+      "cache_write": 2.375e-05,
+      "output": 6.45e-05
+    },
+    "calls": [
+      {
+        "call": 1,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2R9H70cd7PaZaOAV8UU1SMvDzp",
+        "input_tokens": 11704,
+        "cached_input_tokens": 11556,
+        "cache_write_tokens": 22,
+        "uncached_input_tokens": 126,
+        "output_tokens": 26,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00014391,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011556,
+          "cache_write": 2.75e-06,
+          "output": 1.3e-05
+        }
+      },
+      {
+        "call": 2,
+        "agent": "vendor_desk",
+        "response_id": "chatcmpl-Eiv2Tli4VnDqqL3IuE7HN7p6KyVWj",
+        "input_tokens": 11872,
+        "cached_input_tokens": 11578,
+        "cache_write_tokens": 168,
+        "uncached_input_tokens": 126,
+        "output_tokens": 103,
+        "api_usage": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "cost_usd": 0.00020088,
+        "cost_breakdown_usd": {
+          "uncached_input": 1.26e-05,
+          "cached_input": 0.00011578,
+          "cache_write": 2.1e-05,
+          "output": 5.15e-05
+        }
+      }
+    ]
+  }
+]

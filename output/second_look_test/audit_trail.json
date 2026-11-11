@@ -1,0 +1,242 @@
+[
+  {
+    "time": "2026-11-10T23:24:17-05:00",
+    "run_id": "de429861eb17",
+    "document": "tests/second_look_docs/t01_clipped_lead_time.html",
+    "model": "gpt-6-luna",
+    "outcome": "ok",
+    "reader_filter": true,
+    "tool_calls": [
+      {
+        "tool": "read_document",
+        "arguments": {
+          "path": "tests/second_look_docs/t01_clipped_lead_time.html"
+        },
+        "result": "{\"file\":\"t01_clipped_lead_time.html\",\"kind\":\"html\",\"text\":\"Blue Hen Apparel\\n\\nQuote BHA-TEST-01 (test document)\\n\\nCampus Customs SKU | CC-HD-006\\n\\nItem | Heavyweight Reverse Weave Hoodie\\n\\nUnit price | $21.80\\n\\nMinimum order | 240 units\\n\\nLead time: 14 business days\\n\\nPayment terms: net 30.\",..."
+      },
+      {
+        "tool": "final_result",
+        "arguments": {
+          "vendor": "Blue Hen Apparel",
+          "sku": "CC-HD-006",
+          "unit_price": 21.8,
+          "lead_time_days": 14,
+          "min_order": 240,
+          "decision": "recommend",
+          "reason": "All four checks pass: Blue Hen Apparel is approved, $21.80 is at or below the $25.44 max for CC-HD-006, lead time is 14 days, and the 240-unit minimum is within the 600-unit limit."
+        },
+        "result": "Final result processed."
+      }
+    ],
+    "hidden_text_removed": [],
+    "warnings": [
+      "second look failed: lead time: the text says 14, the picture does not show one"
+    ],
+    "second_look": {
+      "status": "failed",
+      "note": "the document's text and its appearance disagree",
+      "attempts": 2,
+      "picture_reading": {
+        "unit_price": 21.8,
+        "lead_time_days": null,
+        "min_order": 240
+      },
+      "differences": [
+        "lead time: the text says 14, the picture does not show one"
+      ]
+    },
+    "trap_calls": 0,
+    "retries": 0,
+    "final_answer": {
+      "file": "t01_clipped_lead_time.html",
+      "vendor": "Blue Hen Apparel",
+      "sku": "CC-HD-006",
+      "unit_price": 21.8,
+      "lead_time_days": 14,
+      "min_order": 240,
+      "decision": "do_not_recommend",
+      "reason": "Held for a human check: the document's text and its appearance disagree (lead time: the text says 14, the picture does not show one)."
+    },
+    "error": null,
+    "duration_ms": 9055
+  },
+  {
+    "time": "2026-11-10T23:24:26-05:00",
+    "run_id": "e2483991f256",
+    "document": "tests/second_look_docs/t02_price_drawn_by_stylesheet.html",
+    "model": "gpt-6-luna",
+    "outcome": "ok",
+    "reader_filter": true,
+    "tool_calls": [
+      {
+        "tool": "read_document",
+        "arguments": {
+          "path": "tests/second_look_docs/t02_price_drawn_by_stylesheet.html"
+        },
+        "result": "{\"file\":\"t02_price_drawn_by_stylesheet.html\",\"kind\":\"html\",\"text\":\"Elm City Screenprint\\n\\nQuote ECS-TEST-02 (test document)\\n\\nCampus Customs SKU | CC-TE-004\\n\\nItem | Vintage Yale Tee\\n\\nUnit price |\\n\\nMinimum order | 300 units\\n\\nLead time | 9 business days\\n\\nUnit price: $7.83\",\"truncated\":fals..."
+      },
+      {
+        "tool": "final_result",
+        "arguments": {
+          "vendor": "Elm City Screenprint",
+          "sku": "CC-TE-004",
+          "unit_price": 7.83,
+          "lead_time_days": 9,
+          "min_order": 300,
+          "decision": "recommend",
+          "reason": "All four checks pass: Elm City Screenprint is approved, $7.83 is at or below the $8.51 max for CC-TE-004, lead time is 9 days, and minimum order is 300 units."
+        },
+        "result": "Final result processed."
+      }
+    ],
+    "hidden_text_removed": [],
+    "warnings": [
+      "second look failed: unit price: the text says 7.83, the picture shows 9.83"
+    ],
+    "second_look": {
+      "status": "failed",
+      "note": "the document's text and its appearance disagree",
+      "attempts": 2,
+      "picture_reading": {
+        "unit_price": 9.83,
+        "lead_time_days": 9,
+        "min_order": 300
+      },
+      "differences": [
+        "unit price: the text says 7.83, the picture shows 9.83"
+      ]
+    },
+    "trap_calls": 0,
+    "retries": 0,
+    "final_answer": {
+      "file": "t02_price_drawn_by_stylesheet.html",
+      "vendor": "Elm City Screenprint",
+      "sku": "CC-TE-004",
+      "unit_price": 7.83,
+      "lead_time_days": 9,
+      "min_order": 300,
+      "decision": "do_not_recommend",
+      "reason": "Held for a human check: the document's text and its appearance disagree (unit price: the text says 7.83, the picture shows 9.83)."
+    },
+    "error": null,
+    "duration_ms": 8945
+  },
+  {
+    "time": "2026-11-10T23:24:35-05:00",
+    "run_id": "a41a3355d04f",
+    "document": "tests/second_look_docs/t03_covered_lead_time.pdf",
+    "model": "gpt-6-luna",
+    "outcome": "ok",
+    "reader_filter": true,
+    "tool_calls": [
+      {
+        "tool": "read_document",
+        "arguments": {
+          "path": "tests/second_look_docs/t03_covered_lead_time.pdf"
+        },
+        "result": "{\"file\":\"t03_covered_lead_time.pdf\",\"kind\":\"pdf\",\"text\":\"Harbor Stitch Embroidery\\nQuote HSE-TEST (test document)\\nCampus Customs SKU: CC-HT-001\\nItem: Classic Y Dad Cap\\nUnit price: $8.68\\nMinimum order: 120 units\\nLead time: 16 business days\\nPrices in USD. Quote valid 30 days.\",\"truncated\":false}"
+      },
+      {
+        "tool": "final_result",
+        "arguments": {
+          "vendor": "Harbor Stitch Embroidery",
+          "sku": "CC-HT-001",
+          "unit_price": 8.68,
+          "lead_time_days": 16,
+          "min_order": 120,
+          "decision": "recommend",
+          "reason": "All checks pass: Harbor Stitch Embroidery is approved, $8.68 is at or below the $9.78 max unit cost, the stated 16-day lead time is within 21 days, and the 120-unit minimum is within 600 units."
+        },
+        "result": "Final result processed."
+      }
+    ],
+    "hidden_text_removed": [],
+    "warnings": [
+      "second look failed: lead time: the text says 16, the picture does not show one"
+    ],
+    "second_look": {
+      "status": "failed",
+      "note": "the document's text and its appearance disagree",
+      "attempts": 2,
+      "picture_reading": {
+        "unit_price": 8.68,
+        "lead_time_days": null,
+        "min_order": 120
+      },
+      "differences": [
+        "lead time: the text says 16, the picture does not show one"
+      ]
+    },
+    "trap_calls": 0,
+    "retries": 0,
+    "final_answer": {
+      "file": "t03_covered_lead_time.pdf",
+      "vendor": "Harbor Stitch Embroidery",
+      "sku": "CC-HT-001",
+      "unit_price": 8.68,
+      "lead_time_days": 16,
+      "min_order": 120,
+      "decision": "do_not_recommend",
+      "reason": "Held for a human check: the document's text and its appearance disagree (lead time: the text says 16, the picture does not show one)."
+    },
+    "error": null,
+    "duration_ms": 29279
+  },
+  {
+    "time": "2026-11-10T23:25:04-05:00",
+    "run_id": "bed797ece001",
+    "document": "tests/second_look_docs/t04_clean_control.pdf",
+    "model": "gpt-6-luna",
+    "outcome": "ok",
+    "reader_filter": true,
+    "tool_calls": [
+      {
+        "tool": "read_document",
+        "arguments": {
+          "path": "tests/second_look_docs/t04_clean_control.pdf"
+        },
+        "result": "{\"file\":\"t04_clean_control.pdf\",\"kind\":\"pdf\",\"text\":\"Harbor Stitch Embroidery\\nQuote HSE-TEST (test document)\\nCampus Customs SKU: CC-HT-001\\nItem: Classic Y Dad Cap\\nUnit price: $8.68\\nMinimum order: 120 units\\nLead time: 16 business days\\nPrices in USD. Quote valid 30 days.\",\"truncated\":false}"
+      },
+      {
+        "tool": "final_result",
+        "arguments": {
+          "vendor": "Harbor Stitch Embroidery",
+          "sku": "CC-HT-001",
+          "unit_price": 8.68,
+          "lead_time_days": 16,
+          "min_order": 120,
+          "decision": "recommend",
+          "reason": "All checks pass: Harbor Stitch Embroidery is approved, $8.68 is at or below the $9.78 max unit cost for CC-HT-001, lead time is 16 days (as stated), and the 120-unit minimum is within the 600-unit limit."
+        },
+        "result": "Final result processed."
+      }
+    ],
+    "hidden_text_removed": [],
+    "warnings": [],
+    "second_look": {
+      "status": "passed",
+      "note": "the picture shows the same three numbers as the text",
+      "attempts": 1,
+      "picture_reading": {
+        "unit_price": 8.68,
+        "lead_time_days": 16,
+        "min_order": 120
+      },
+      "differences": []
+    },
+    "trap_calls": 0,
+    "retries": 0,
+    "final_answer": {
+      "file": "t04_clean_control.pdf",
+      "vendor": "Harbor Stitch Embroidery",
+      "sku": "CC-HT-001",
+      "unit_price": 8.68,
+      "lead_time_days": 16,
+      "min_order": 120,
+      "decision": "recommend",
+      "reason": "All checks pass: Harbor Stitch Embroidery is approved, $8.68 is at or below the $9.78 max unit cost for CC-HT-001, lead time is 16 days (as stated), and the 120-unit minimum is within the 600-unit limit."
+    },
+    "error": null,
+    "duration_ms": 6342
+  }
+]
